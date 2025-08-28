@@ -3,6 +3,9 @@ kind: Kustomization
 bases:
 - ../../base
 
+resources:
+- frontend.yaml
+
 nameSuffix: -apac
 
 images:
